@@ -1,19 +1,27 @@
+#body{
+    background-image: url("media/bg.png");
+    background-repeat: no-repeat;
+  background-size: 1536px 861px;
+}
+
+
 #wrapper{
-    width: 1050px;
+    width: 700px;
     height: auto;
     margin: 0 auto;
-    margin-top: 300px;
-    padding: 25px;
+    margin-top: 100px;
+    padding: 10px;
     background-color: #1e1e1e;
+    opacity: 0.6;
 }
 
 .searchFieldContainer{
-    width: -10px;
-    height: 100px;
+    width: -15px;
+    height: 80px;
     display: flex;
     margin: 15px;
 
-    padding-left: 10px;
+    padding-left: 20px;
 
     background-color: #6a6a6a;
     outline: solid 3px #6a6a6a;
@@ -29,11 +37,11 @@
 }
 
 .folerContainer{
-    height: 60px;
+    height: 50px;
     display: flex;
     margin: 15px;
 
-    line-height: 60px;
+    line-height: 50px;
     padding-left: 20px;
     background-color: #6a6a6a;
     outline: solid 3px #6a6a6a;
