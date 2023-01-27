@@ -15,6 +15,16 @@
     opacity: 0.6;
 }
 
+.content{
+    display: inline-block;
+}
+
+.bar{
+    display: inline-block;
+    width: 348px;
+    vertical-align: top; 
+}
+
 .searchFieldContainer{
     width: -15px;
     height: 80px;
